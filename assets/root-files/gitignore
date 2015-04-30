@@ -10,3 +10,4 @@ nbproject
 tmp/
 
 phpunit.xml
+test/TestConfiguration.php

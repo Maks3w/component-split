@@ -115,7 +115,6 @@ if (file_exists('composer.json')) {
 }
 
 // Test directory files
-copy($assetDir . '/test-files/gitignore', 'test/.gitignore');
 file_put_contents(
     'test/Bootstrap.php',
     str_replace('{COMPONENT}', $normalized, file_get_contents($assetDir . '/test-files/Bootstrap.php'))
