@@ -119,6 +119,6 @@ file_put_contents(
     'test/Bootstrap.php',
     str_replace('{COMPONENT}', $normalized, file_get_contents($assetDir . '/test-files/Bootstrap.php'))
 );
-copy($testConfigDist, 'test/TestConfiguration.php.dist');
-copy($testConfigTravis, 'test/TestConfiguration.php.travis');
+copy($testConfigDist, 'TestConfiguration.php.dist');
+copy($testConfigTravis, 'TestConfiguration.php.travis');
 exit(0);

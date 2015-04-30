@@ -37,7 +37,7 @@ foreach ($composer['autoload']['psr-4'] as $componentName => $path) {
 // Setup development autoloading rules
 $composer['autoload-dev'] = [
     'psr-4' => [
-        'ZendTest\\' . $component . '\\' => 'test/' . $component . '/',
+        'ZendTest\\' . $component . '\\' => 'test/',
     ],
 ];
 
