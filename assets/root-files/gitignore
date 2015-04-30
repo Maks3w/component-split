@@ -11,3 +11,4 @@ tmp/
 
 phpunit.xml
 test/TestConfiguration.php
+vendor
